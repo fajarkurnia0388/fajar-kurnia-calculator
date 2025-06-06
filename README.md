@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# Fajar Kurnia Calculator
 
-## Project info
+Ini adalah aplikasi kalkulator sederhana yang dibuat menggunakan React dan TypeScript.
 
-**URL**: https://lovable.dev/projects/e34cc70c-9204-4f53-909b-e25af5625b64
+## ✨ Fitur
 
-## How can I edit this code?
+* **Operasi Aritmatika Dasar**: Melakukan operasi penjumlahan, pengurangan, perkalian, dan pembagian.
+* **Tombol Persentase**: Menghitung persentase dari sebuah angka dengan mudah.
+* **Tombol Plus/Minus**: Mengubah tanda angka dari positif ke negatif dan sebaliknya.
+* **Tombol Hapus (AC & C)**: Tombol "All Clear" (AC) untuk mereset seluruh perhitungan dan "Clear" (C) untuk menghapus masukan terakhir.
+* **Desain Responsif**: Tampilan yang dapat menyesuaikan diri dengan berbagai ukuran layar, baik di desktop maupun perangkat mobile.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠️ Teknologi yang Digunakan
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e34cc70c-9204-4f53-909b-e25af5625b64) and start prompting.
+Proyek ini dibangun dengan teknologi berikut:
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Vite**: Alat bantu pengembangan frontend yang cepat.
+* **React**: Pustaka JavaScript untuk membangun antarmuka pengguna.
+* **TypeScript**: Superset JavaScript yang menambahkan pengetikan statis.
+* **Tailwind CSS**: Kerangka kerja CSS untuk desain yang cepat dan kustom.
+* **shadcn-ui**: Kumpulan komponen antarmuka pengguna yang dapat digunakan kembali.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Menjalankan Secara Lokal
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Jika Anda ingin menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah berikut:
 
-Follow these steps:
+1.  **Clone repository ini:**
+    ```sh
+    git clone [https://github.com/fajarkurnia0388/fajar-kurnia-calculator.git](https://github.com/fajarkurnia0388/fajar-kurnia-calculator.git)
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2.  **Masuk ke direktori proyek:**
+    ```sh
+    cd fajar-kurnia-calculator
+    ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3.  **Instal dependensi yang diperlukan:**
+    ```sh
+    npm install
+    ```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e34cc70c-9204-4f53-909b-e25af5625b64) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+4.  **Jalankan server pengembangan:**
+    ```sh
+    npm run dev
+    ```
+    Buka browser Anda dan kunjungi `http://localhost:5173` (atau port lain yang ditampilkan di terminal Anda) untuk melihat aplikasi.
